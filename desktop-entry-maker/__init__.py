@@ -1,9 +1,10 @@
 #!/bin/env python3
 import os
 
-from _core import create_desktop_file, empty
+from ._core import create_desktop_file, empty
 
-if __name__ == '__main__':
+
+def run_console():
     import argparse
 
     parser = argparse.ArgumentParser(prog="desktop-entry-maker",
@@ -19,7 +20,7 @@ if __name__ == '__main__':
 
     command = parser.add_subparsers(dest="command")
 
-    create_parser = command.add_parser("create")
+    create_parser = command.add_parser("create", description="create new .desktop file")
     create_parser.add_argument("-n", "--name", default="", help="Display name of launcher")
     create_parser.add_argument("-t", "--type", choices=["Application", "Link", "Directory"],
                                default="Application", help="Type of desktop entry")
@@ -44,3 +45,9 @@ if __name__ == '__main__':
             args.icon = input("? Desktop Entry Icon: ")
 
         create_desktop_file(args)
+    else:
+        parser.print_help()
+
+
+if __name__ == '__main__':
+    run_console()
