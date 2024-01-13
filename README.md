@@ -1,10 +1,5 @@
 # DesktopEntry-Maker
 
-![Build Status](https://img.shields.io/travis/Wilfried-Tech/DesktopEntry-Maker.svg)
-![Coverage](https://img.shields.io/codecov/c/github/Wilfried-Tech/DesktopEntry-Maker.svg)
-![GitHub release](https://img.shields.io/github/release/Wilfried-Tech/DesktopEntry-Maker.svg)
-![GitHub All Releases](https://img.shields.io/github/downloads/Wilfried-Tech/DesktopEntry-Maker/total.svg)
-![License](https://img.shields.io/github/license/Wilfried-Tech/DesktopEntry-Maker.svg)
 ![GitHub stars](https://img.shields.io/github/stars/Wilfried-Tech/DesktopEntry-Maker.svg?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/Wilfried-Tech/DesktopEntry-Maker.svg?style=social)
 
